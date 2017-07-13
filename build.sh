@@ -12,6 +12,7 @@ mkdir -p /usr/src/app
 cp -rf /code/* /usr/src/app
 cd /usr/src/app
 
+#Build instructions
 npm install \
     && npm install -g bower \
     && npm install -g gulp \
